@@ -1,7 +1,7 @@
 {
   "name": "grade3-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Grade3 Syntax Theme for Atom",
   "keywords": [
     "syntax",
