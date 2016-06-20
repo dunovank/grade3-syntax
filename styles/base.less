@@ -7,7 +7,6 @@ atom-text-editor {
 
 atom-text-editor,
 :host {
-
         .scroll-view {
                 padding-left: 4px;
         }
@@ -15,15 +14,12 @@ atom-text-editor,
                 background-color: fade(@comment-blue, 20%);
                 color: fade(@comment-blue, 20%);
         }
-
         .indent-guide {
                 color: fade(@comment-blue, 20%);
         }
-
         .invisible-character {
                 color: fade(#515a6f, 20%);
         }
-
         .gutter {
                 background-color: @syntax-background-color;
                 color: @comment-blue;
@@ -36,7 +32,6 @@ atom-text-editor,
                                 background-color: fade(#515a6f,15%);
                                 color: @orange;
                         }
-
                         &.cursor-line-no-selection {
                                 background-color: fade(#515a6f, 15%);
                                 color: @orange;
@@ -55,7 +50,7 @@ atom-text-editor,
         }
 
         .selection .region {
-                background-color: fade(#515a6f, 15%);
+                background-color: @very-light-blue;
         }
 }
 
@@ -91,7 +86,7 @@ atom-text-editor,
         }
 
         &.other.inherited-class {
-                color: @blue;
+                color: @purple;
 
         }
 }
@@ -120,7 +115,7 @@ atom-text-editor,
         }
 
         &.other.unit {
-                color: @orange;
+                color: @purple;
         }
 }
 
@@ -136,11 +131,11 @@ atom-text-editor,
         }
 
         &.other.color {
-                color: @orange;
+                color: @purple;
         }
 
         &.other.symbol {
-                color: @orange;
+                color: @pink;
         }
 
         &.boolean {
@@ -170,10 +165,10 @@ atom-text-editor,
         color: @green;
 
         &.regexp {
-                color: @blue;
+                color: @pink;
 
                 .source.ruby.embedded {
-                        color: @orange;
+                        color: @pink;
                 }
         }
 
@@ -251,7 +246,7 @@ atom-text-editor,
         }
 
         &.other.inherited-class {
-                color: @blue;
+                color: @purple;
         }
 
         &.name.section {
@@ -263,10 +258,10 @@ atom-text-editor,
         }
 
         &.other.attribute-name {
-                color: @orange;
+                color: @blue;
 
                 &.id {
-                        color: @blue;
+                        color: @purple;
                 }
         }
 }
@@ -300,7 +295,7 @@ atom-text-editor,
 
 .markup {
         &.bold {
-                color: @orange;
+                color: @purple;
                 font-style: bold;
         }
 
@@ -318,7 +313,7 @@ atom-text-editor,
         }
 
         &.heading .punctuation.definition.heading {
-                color: @blue;
+                color: @purple;
         }
 
         &.inserted {
@@ -330,7 +325,7 @@ atom-text-editor,
         }
 
         &.quote {
-                color: @orange;
+                color: @purple;
         }
 
         &.raw.inline {
